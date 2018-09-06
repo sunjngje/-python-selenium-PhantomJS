@@ -88,7 +88,7 @@ def one(cc,name,dir):
         else:
            print(text)
            print(url)
-        fp = open(dir + '/' + name+'.txt', 'a')
+        fp = open(dir + '/' + name+'.txt', 'a' ,encoding="utf-8")
         fp.write(text)
         fp.write('\n')
         fp.write(url)
